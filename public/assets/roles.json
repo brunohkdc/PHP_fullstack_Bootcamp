@@ -1,0 +1,10 @@
+{
+    "roles": [
+      "user",
+      "teacher",
+      "student",
+      "manager",
+      "accounts",
+      "admin"
+     ]
+}
