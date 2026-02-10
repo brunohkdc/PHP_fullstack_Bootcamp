@@ -27,12 +27,17 @@ class Register extends Component
 
     public string $password_confirmation = '';
 
+    public array $roles;
 
     public function render()
     {
         $all_roles = File::json('assets/roles.json', JSON_THROW_ON_ERROR);
+
+        //livewire 2-way binding
+        $this->roles =  $all_roles["roles"];
         
-        return view('livewire.auth.register', ['roles' => $all_roles["roles"]]);
+        // return view('livewire.auth.register', ['roles' => $all_roles["roles"]]);
+        return view('livewire.auth.register');
     }
 
     /**
