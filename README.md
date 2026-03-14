@@ -11,3 +11,6 @@ Run npm run dev and php artisan serve to start dev server.<br />
 
 <h2>Questions?</h2>
 Check with the code owner.
+
+<h2>Localization</h2>
+Not all files are localized.
