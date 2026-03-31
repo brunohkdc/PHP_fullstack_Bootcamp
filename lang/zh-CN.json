@@ -7,5 +7,14 @@
     "Remember me": "记住账号",
     "Log in": "登录",
     "Don't have an account?": "还没有账号？",
-    "Sign up": "立即注册"
+    "Sign up": "立即注册!",
+    "Create an account": "创建一个账户",
+    "Enter your details below to create your account": "请在下方输入您的详细信息以创建您的帐户",
+    "Languages": "语言",
+    "All Posts": "所有文章",
+    "Register": "注册",
+    "Dashboard": "仪表盘",
+    "Log out": "退出登录",
+    "My Posts": "我的文章",
+    "My Commented Posts": "我评论过的文章"
 }

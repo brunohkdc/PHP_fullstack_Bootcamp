@@ -3,6 +3,7 @@
     <div class="relative mb-6 w-full">
         <div class="flex justify-between">
             <flux:heading class="mb-6" size="xl" level="1">{{ __('My Posts') }}</flux:heading>
+            <livewire:locale-switcher />
             <flux:modal.trigger name="add-post">
                 <flux:subheading size="lg" class="mb-6 underline cursor-pointer">&plus; {{ __('Add Post') }}</flux:subheading>
             </flux:modal.trigger>

@@ -3,7 +3,9 @@
     <div class="relative mb-6 w-full">
         <div class="flex justify-between">
             <flux:heading class="mb-6" size="xl" level="1">{{ __('My Commented Posts') }}</flux:heading>
+            <livewire:locale-switcher />
         </div>
+        
         <flux:separator class="border-1" />
     </div>
 
